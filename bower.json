@@ -1,0 +1,38 @@
+{
+  "name": "angular-min",
+  "description": "This is minimum setup required for angular getting started",
+  "authors": [
+    "sayedminhal@gmail.com"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  },
+  "keywords": [
+    "Angular",
+    "Basic",
+    "Folder",
+    "Structure"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-mocks": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-resource": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
+    "angular-scenario": "^1.6.4",
+    "angular-touch": "^1.6.4",
+    "angular-cookies": "^1.6.4",
+    "angular-loader": "^1.6.4",
+    "angular-ui": "^0.4.0"
+  }
+}

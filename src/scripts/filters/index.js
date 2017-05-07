@@ -1,0 +1,3 @@
+define([
+    './my-filter'
+], function() {});
