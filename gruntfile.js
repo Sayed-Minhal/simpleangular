@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         watch: {
             files: ['<%= jshint.files %>', 'src/*.html'],
-            tasks: ['jshint']
+            tasks: ['']
 
         },
         connect: {
@@ -14,6 +14,8 @@ module.exports = function(grunt) {
                 options: {
                     port: 9001,
                     base: '.',
+                    keepalive:true,
+                    livereload:true,
                     open: {
                         target: 'http://localhost:9001/src/', // target url to open
                         appName: 'app', // name of the app that opens, ie: open, start, xdg-open
