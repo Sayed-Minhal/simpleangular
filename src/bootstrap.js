@@ -5,6 +5,7 @@ define([
     'require',
     'angular',
     'angularRoutes',
+    'angularui',
     '../src/scripts/app',
     'routes'
 ], function(require, ng) {
